@@ -111,3 +111,5 @@ complex_queue.dequeue()
 complex_queue.dequeue()
 
 complex_queue.traverse()
+
+# The complex queue prioritizes the longest order first followed by the oldest order
