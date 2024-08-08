@@ -6,7 +6,7 @@ class Node():
         self.data = data
         self.next = None
 
-class simpleOrdersQueue():
+class SimpleOrdersQueue():
     def __init__(self):
         self.head = None
         self.tail = None
@@ -35,7 +35,7 @@ class simpleOrdersQueue():
             current = current.next
         
 
-class complexOrdersQueue():
+class ComplexOrdersQueue():
     def __init__(self) -> None:
         self.head = None
         self.tail = None
@@ -76,7 +76,7 @@ class complexOrdersQueue():
             print(current.data)
             current = current.next
 
-simple_queue = simpleOrdersQueue()
+simple_queue = SimpleOrdersQueue()
 
 simple_queue.enqueue("#1 medium")
 simple_queue.enqueue("#3 large")
@@ -94,7 +94,7 @@ simple_queue.traverse()
 
 line()
 
-complex_queue = complexOrdersQueue()
+complex_queue = ComplexOrdersQueue()
 
 complex_queue.enqueue(["Vanilla ice-cream"])
 complex_queue.enqueue(["Big Mac", "Large Coke", "Large Fries", "4 piece Nuggets"])
